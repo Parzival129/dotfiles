@@ -28,3 +28,6 @@ wal -i "$FILE" -n -q -s
 
 # 5. Reload Hyprland
 hyprctl reload
+
+# 6. Restart waybar to pick up new wal colors
+killall waybar && waybar &
