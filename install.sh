@@ -15,6 +15,8 @@ yay -S --needed - < "$DOTFILES_DIR/aurpkglist.txt"
 echo "==> Stowing dotfiles..."
 cd "$DOTFILES_DIR"
 
+mkdir -p ~/.local/bin
+
 for pkg in hypr waybar kitty rofi wofi wlogout fastfetch btop cava wal astronvim; do
   rm -rf ~/.config/$pkg
   stow "$pkg"
@@ -32,6 +34,10 @@ echo "  git: done"
 rm -f ~/.Xresources
 stow xorg
 echo "  xorg: done"
+
+rm -f ~/.local/bin/wallpaper
+stow local
+echo "  local: done"
 
 echo "==> Enabling services..."
 sudo systemctl enable --now NetworkManager
