@@ -1,5 +1,7 @@
 # dotfiles
 
+![screenshot](20260628_00h56m36s_grim.png)
+
 My personal Arch Linux configuration managed with [GNU Stow](https://www.gnu.org/software/stow/).
 
 ## Setup
