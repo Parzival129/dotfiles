@@ -1,0 +1,8 @@
+i686-elf-binutils
+i686-elf-gcc
+spleen-font
+terminus-font-otb-narrow
+visual-studio-code-bin
+wlogout
+yay
+yay-debug

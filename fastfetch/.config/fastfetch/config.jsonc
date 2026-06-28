@@ -1,0 +1,31 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"logo": {
+    "source": "/home/russell/.config/fastfetch/pikachu-bw-new.png",  // <-- CHANGE THIS PATH
+    "type": "kitty",
+    "height": 15,    // Adjusts height in lines
+    "width": 25,     // Adjusts width in character cells
+    "padding": {
+      "top": 0,
+      "left": 2,
+      "bottom": 2
+    }
+  },
+  "display": {
+    "separator": ": "
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "kernel",
+    "packages",
+    "shell",
+    "wm",
+    "disk",
+    "memory",
+    "localip",
+    "break",
+    "colors"
+  ]
+}
