@@ -21,7 +21,7 @@ fi
 FILE="$WALLPAPER_DIR/$SELECTED"
 
 # 3. Apply the wallpaper
-swww img "$FILE" --transition-type grow --transition-pos 0.5,0.5 --transition-fps 60
+awww img "$FILE" --transition-type grow --transition-pos 0.5,0.5 --transition-fps 60
 
 # 4. Generate colors
 wal -i "$FILE" -n -q -s
